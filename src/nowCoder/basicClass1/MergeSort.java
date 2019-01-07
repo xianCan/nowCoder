@@ -17,7 +17,7 @@ public class MergeSort {
     private static void mergeSort(int[] arr, int left, int right){
         if (left==right)
             return;
-        int middle = left+right >> 2;
+        int middle = left+right >> 1;
         mergeSort(arr, left, middle);
         mergeSort(arr, middle+1, right);
         merge(arr, left, middle, right);
