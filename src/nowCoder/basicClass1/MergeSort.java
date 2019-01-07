@@ -36,7 +36,7 @@ public class MergeSort {
             temp[i++] = arr[r++];
         }
         for (i=0;i<temp.length;i++){
-            arr[l+i] = temp[i];
+            arr[left+i] = temp[i];
         }
     }
 }
