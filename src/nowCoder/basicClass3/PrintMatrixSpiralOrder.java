@@ -13,7 +13,10 @@ package nowCoder.basicClass3;
  * 【要求】 额外空间复杂度为O(1)。
  */
 public class PrintMatrixSpiralOrder {
-
+    /**
+     * 定义左上点的坐标，定义右下点的坐标，然后一圈一圈往里打印
+     * @param matrix
+     */
     public static void spiralOrderPrint(int[][] matrix) {
         int upR = 0;
         int upC = 0;
